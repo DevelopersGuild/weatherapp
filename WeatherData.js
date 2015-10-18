@@ -9,12 +9,4 @@ function WeatherData(lat, lon) {
 
 	var weatherSummary = jsonBody.currently.summary
 	var icon = jsonBody.currently.icon
-
-	Object hourlyTempData;	//store hourly temperature data
-	for (var key in jsonBody.hourly.data) {
-		if (jsonBody.hasOwnProperty(key) && key == "temperature") {		//filters out prototypes
-			// adds temperature key-value pairs from jsonBody to hourlyData
-			hourlyTempData[key] = jsonBody.hourly.data[key]			
-		}
-	}
 }
