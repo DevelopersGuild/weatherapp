@@ -7,7 +7,7 @@ function WeatherData(lat, lon) {
 			var json = JSON.parse(body)
 	}
 
-	var weatherSummary = json.currently.summary;
-	var icon = currently.icon
+	var weatherSummary = json.currently.summary
+	var icon = json.currently.icon
 	
 }
