@@ -1,6 +1,10 @@
 # weatherapp 
 
-Start using npm start and get weather data for lat/long using  
+Start using  
+```
+npm start
+```
+and get weather data for lat/long by visiting  
 ```
 localhost:3000/weather/:lat/:long
 ```
